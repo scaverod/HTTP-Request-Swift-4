@@ -50,3 +50,8 @@ And now it's time to process that data in case that it was successfully.
         return (correct, token)
         }
  ```    
+
+
+## Installation:
+
+Just copy the class ServerController in you project and start using it :)
