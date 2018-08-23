@@ -4,6 +4,16 @@ If you want to make requests to a server using Swift 4, this class will make you
 
 ## How to use it?
 
+You will need just to call this function: 
+```
+static func makeRequest(type: RequestType, url: String, token: String, params: String)
+```
+Where: 
+- type: Type of the call (POST, GET, DELETE).
+- url: where it should be send the request.
+- token: for the authentication, barear's value. It could be "" if is not needed.
+- params: It will be added to the body in post calls. It could be "" if is not needed.
+
 It's as easy as:
 ```
 let response = ServerController.makeRequest(type: ServerController.RequestType.GET, url: "yoururl", token: token, params: params)
