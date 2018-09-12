@@ -1,7 +1,4 @@
 //
-//  Server.swift
-//  AerPal
-//
 //  Created by Sergio Cavero Diaz on 08/08/2018.
 //  Copyright © 2018 Sergio Cavero Diaz. All rights reserved.
 //
